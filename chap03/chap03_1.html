@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>chap03-1</title>
+    <style type="text/css">
+		label {
+			width:140px;
+			display: block;
+			text-align: right;
+            margin: 5px 0;
+		}
+		input {
+			margin-left:10px;
+			width:200px;
+			border:1px solid;
+            border-color: gray;
+			border-radius: 3px;
+		}
+		input[type="email"], input[name="address"] {
+			width:400px;
+
+		}
+	</style>
+</head>
+<body>
+    <form>
+        <label>이름 : </label>
+        <input type="text">
+        <br>
+        <label>이메일 주소 : </label>
+        <input type="email">
+        <br>
+        <label>연락처 : </label>
+        <input type="number">
+        <br>
+        <label>주소 : </label>
+        <input type="url">
+        <br>
+        <label>홈페이지 주소 : </label>
+        <input name="address" type="url">
+    </form>
+</html>
