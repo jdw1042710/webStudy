@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        label {
+			width:150px;
+			display: inline-block;
+			text-align: right;
+			margin:6px 0;
+		}
+		input {
+			margin-left:10px;
+			width:200px;
+			padding:5px;
+			border:1px solid #ccc;
+			border-radius: 3px;
+		}
+		input[type="email"], input[name="address"] {
+			width:350px;
+		}
+    </style>
+</head>
+<body>
+    <form>
+        <label>이름 : </label><input type="text" name="name"> <br>
+        <label>이메일 주소 : </label><input type="email" name="email"> <br>
+        <label>연락처 : </label><input type="tel" name="tel"> <br>
+        <label> 홈페이지 주소 : </label><input type="url" name="url"> <br>
+        <label>주소 : </label><input type="text" name="address">
+    </form>
+</body>
+</html>
