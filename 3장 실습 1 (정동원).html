@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html Lang = "ko-kr">
+<head>
+	<meta charset="UTF-8">
+	<title>3장 실습</title>
+	<style>
+		label {
+			width: 140px;
+			margin: 2px;
+			display: inline-block;
+			text-align: right;
+		}
+
+		input {
+			width: 200px;
+			margin: 2px;
+			display: inline-block;
+			text-align: left;
+		}
+
+		input[name = email], input[name = address]{
+			width: 300px;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1>3장 실습</h1>
+	</header>
+	<article>
+		<form class= "info">
+			<label>이름 :</label>
+			<input type = "text" name = "name" autofocus>
+			<br>
+
+			<label>이메일 주소 :</label>
+			<input type = "email" name = "email">
+			<br>
+
+			<label>연락처 :</label>
+			<input type = "tel" name = "telephone">
+			<br>
+
+			<label>홈페이지 주소 :</label>
+			<input type = "url" name = "url">
+			<br>
+
+			<label>주소 :</label>
+			<input type = "text" name = "address">
+			<br>
+
+		</form>
+	</article>
+</body>
