@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        p {
+            display:inline-block
+        }
+    </style>
+</head>
+<body>
+    <h2>10씩 증가하는 값</h2>
+    <span id="t"></span>
+
+    <script>
+        var i;
+        var text="";
+        for(i=1;i<6;i++) {
+            text += "<p>"+(10*i)+" / </p>"
+        }
+        document.getElementById("t").innerHTML=text;
+    </script>
+</body>
+</html>
